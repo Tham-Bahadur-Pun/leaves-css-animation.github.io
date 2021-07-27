@@ -29,6 +29,40 @@ section{
   left:20%;
   animation: animate 15s linear infinite;
 }
+.set div:nth-child(2) {
+  left: 40%;
+  animation: animate 20s linear infinite;
+}
+
+.set div:nth-child(3) {
+  left: 60%;
+  animation: animate 11s linear infinite;
+}
+
+.set div:nth-child(4) {
+  left: 80%;
+  animation: animate 5s linear infinite;
+}
+
+.set div:nth-child(5) {
+  left: 100%;
+  animation: animate 10s linear infinite;
+}
+
+.set div:nth-child(6) {
+  left: 85%;
+  animation: animate 7s linear infinite;
+}
+
+.set div:nth-child(7) {
+  left: 0%;
+  animation: animate 8s linear infinite;
+}
+
+.set div:nth-child(8) {
+  left: 30%;
+  animation: animate 13s linear infinite;
+}
 @keyframes animate{
   0%{
     opacity:0;
