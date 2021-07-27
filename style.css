@@ -25,6 +25,14 @@ section{
   width:50%;
   height: auto
 }
+.set2{
+  transform:scale(2) rotateY(180deg);
+  filter:blur(2px);
+}
+.set3{
+  transform:scale(0.8) rotateX(180deg);
+  filter:blur(1);
+}
 .set div:nth-child(1){
   left:20%;
   animation: animate 15s linear infinite;
